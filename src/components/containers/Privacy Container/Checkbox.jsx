@@ -1,8 +1,9 @@
 import React from 'react';
+import './Checkbox.css';
 
 const Checkbox = () => {
    return (
-      <div>
+      <div className="checkbox">
          <input type="checkbox" required="true"></input>
       </div>
    );
