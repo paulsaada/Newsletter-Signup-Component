@@ -1,0 +1,14 @@
+@font-face {
+   font-family: 'Azo-Sans';
+   src: url('/fonts/Azo-Sans/Azo-Sans.ttf');
+   src: url('/fonts/Azo-Sans/Azo-Sans.eot') format('embedded-opentype'),
+      url('/fonts/Azo-Sans/Azo-Sans.woff') format('woff'),
+      url('/fonts/Azo-Sans/Azo-Sans.ttf') format('truetype'),
+      url('/fonts/Azo-Sans/Azo-Sans.svg') format('svg');
+}
+
+.subtitle {
+   font-family: 'Azo-Sans';
+   font-size: 20px;
+   color: #94AEBF;
+}
