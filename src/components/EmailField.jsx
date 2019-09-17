@@ -6,7 +6,10 @@ class EmailField extends Component {
    render() {
       return (
          <div>
-            <input></input>
+            <input
+               className="emailField"
+               type="text" id="email" name="email"
+               placeholder="enter email address"></input>
          </div>
       );
    }
