@@ -14,8 +14,8 @@ class App extends React.Component {
             <Title />
             <Subtitle />
             <EmailField />
-            <UserAgreement />
             <SubmitButton />
+            <UserAgreement />
          </div>
       );
    }
