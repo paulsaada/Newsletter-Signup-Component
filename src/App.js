@@ -3,6 +3,7 @@ import './App.css';
 import Title from './components/Title';
 import Subtitle from './components/Subtitle';
 import EmailField from './components/EmailField';
+import UserAgreement from './components/UserAgreement';
 import SubmitButton from './components/SubmitButton';
 
 class App extends React.Component {
@@ -12,7 +13,8 @@ class App extends React.Component {
          <div>
             <Title />
             <Subtitle />
-            <EmailField />>
+            <EmailField />
+            <UserAgreement />
             <SubmitButton />
          </div>
       );

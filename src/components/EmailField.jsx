@@ -9,7 +9,8 @@ class EmailField extends Component {
             <input
                className="emailField" required="true"
                type="email" id="email" name="email"
-               placeholder="enter email address"></input>
+               placeholder="enter email address">
+            </input>
          </div>
       );
    }
