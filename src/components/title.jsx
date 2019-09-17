@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-const title = () => {
+const Title = () => {
 	return (
 		<div>
 			<h1 className="title">join the list</h1>
@@ -8,4 +8,4 @@ const title = () => {
 	);
 };
 
-export default title;
+export default Title;
