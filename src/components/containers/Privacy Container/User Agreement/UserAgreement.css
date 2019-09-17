@@ -8,6 +8,7 @@
 }
 
 .userAgreement {
+   max-width: 420px;
    font-family: 'Azo-Sans-Light';
    font-size: 12px;
    line-height: 14px;
