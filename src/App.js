@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import Title from './components/containers/Title Container/Title';
-import Subtitle from './components/containers/Privacy Container/Subtitle';
+import Subtitle from './components/containers/Subtitle Container/Subtitle';
 import EmailField from './components/containers/Email Container/EmailField';
 import SubmitButton from './components/containers/Email Container/SubmitButton';
 import UserAgreement from './components/containers/Privacy Container/UserAgreement';
