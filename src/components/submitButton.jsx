@@ -1,14 +1,15 @@
 import React, { Component } from 'react';
 
-class submitButton extends Component {
+class SubmitButton extends Component {
    state = {}
    render() {
       return (
          <div>
             <button>NEXT</button>
+            {console.log('Connecte')}
          </div>
       );
    }
 }
 
-export default submitButton;
+export default SubmitButton;
