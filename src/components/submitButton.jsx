@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
+import './SubmitButton.css';
 
 class SubmitButton extends Component {
    state = {}
    render() {
       return (
          <div>
-            <button>NEXT</button>
-            {console.log('Connecte')}
+            <button className="submitBtn">NEXT</button>
          </div>
       );
    }
