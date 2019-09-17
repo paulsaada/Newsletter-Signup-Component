@@ -1,9 +1,7 @@
 import React from 'react';
 import './App.css';
 import Title from './components/containers/Title Container/Title';
-import Subtitle from './components/containers/Subtitle Container/Subtitle';
-import Privacy from './components/containers/Privacy Container/Privacy';
-import UserInfo from './components/containers/Email Container/UserInfo'
+import Form from './components/containers/Form Container/Form'
 
 class App extends React.Component {
    state = {}
@@ -11,9 +9,7 @@ class App extends React.Component {
       return (
          <div>
             <Title />
-            <Subtitle />
-            <UserInfo />
-            <Privacy />
+            <Form />
          </div>
       );
    }
