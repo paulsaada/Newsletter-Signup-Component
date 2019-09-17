@@ -3,8 +3,9 @@ import './App.css';
 import Title from './components/Title';
 import Subtitle from './components/Subtitle';
 import EmailField from './components/EmailField';
-import UserAgreement from './components/UserAgreement';
 import SubmitButton from './components/SubmitButton';
+import UserAgreement from './components/UserAgreement';
+import Checkbox from './components/Checkbox';
 
 class App extends React.Component {
    state = {}
@@ -16,6 +17,7 @@ class App extends React.Component {
             <EmailField />
             <SubmitButton />
             <UserAgreement />
+            <Checkbox />
          </div>
       );
    }
