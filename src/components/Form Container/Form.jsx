@@ -9,7 +9,7 @@ class Form extends Component {
       return (
          <div>
             <Subtitle />
-            <form>
+            <form onSubmit={console.log("Next!")}>
                <UserInfo />
                <Privacy />
             </form>
