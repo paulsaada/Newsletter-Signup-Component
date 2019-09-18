@@ -9,8 +9,10 @@ class Form extends Component {
       return (
          <div>
             <Subtitle />
-            <UserInfo />
-            <Privacy />
+            <form>
+               <UserInfo />
+               <Privacy />
+            </form>
          </div>
       );
    }
