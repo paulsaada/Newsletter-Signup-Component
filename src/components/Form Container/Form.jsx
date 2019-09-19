@@ -4,17 +4,27 @@ import UserInfo from '../containers/Email Container/UserInfo';
 import Privacy from '../containers/Privacy Container/Privacy'
 
 class Form extends Component {
-   state = {}
+   state = {
+      firstName: "",
+      lastName: "",
+      email: ""
+   };
+
    render() {
       return (
          <div>
             <Subtitle />
-            <form onSubmit={console.log("Next!")}>
+            <form onSubmit={this.addEmail()}>
                <UserInfo />
                <Privacy />
             </form>
          </div>
       );
+   }
+
+   addEmail() {
+
+
    }
 }
 
