@@ -4,7 +4,7 @@ import './Checkbox.css';
 const Checkbox = () => {
    return (
       <div className="checkbox">
-         <input type="checkbox" required="true"></input>
+         <input type="checkbox" required={true}></input>
       </div>
    );
 }

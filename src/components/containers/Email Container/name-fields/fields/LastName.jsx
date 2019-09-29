@@ -7,7 +7,7 @@ class LastName extends Component {
       return (
          <div>
             <input
-               className="name" required="true"
+               className="name" required={true}
                type="text" id="lastName" name="lastName"
                placeholder="Last Name">
             </input>

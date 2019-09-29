@@ -14,17 +14,12 @@ class Form extends Component {
       return (
          <div>
             <Subtitle />
-            <form onSubmit={this.addEmail()}>
+            <form>
                <UserInfo />
                <Privacy />
             </form>
          </div>
       );
-   }
-
-   addEmail() {
-
-
    }
 }
 
