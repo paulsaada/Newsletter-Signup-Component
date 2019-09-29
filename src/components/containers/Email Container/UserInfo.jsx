@@ -9,8 +9,8 @@ class UserInfo extends Component {
       submittedEmail: false,
    };
 
-   addNameField = () => {
-      console.log("here");
+   addNameField = (event) => {
+      event.preventDefault();
       this.setState({ submittedEmail: true });
    };
 
@@ -19,7 +19,7 @@ class UserInfo extends Component {
          <div className="userInfo">
             {(!this.state.submittedEmail) ? <EmailField /> : <NameFields />}
             <SubmitButton
-               onClick={this.addNameField}
+               changeField={this.addNameField}
             />
          </div>
       );
