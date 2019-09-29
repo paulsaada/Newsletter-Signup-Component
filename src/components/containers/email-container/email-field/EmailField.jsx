@@ -9,7 +9,8 @@ class EmailField extends Component {
             <input
                className="emailField" required={true}
                type="email" id="email" name="email"
-               placeholder="enter email address">
+               placeholder="enter email address"
+               onChange={this.reportValidity()}>
             </input>
          </div>
       );

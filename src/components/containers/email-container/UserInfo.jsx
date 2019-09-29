@@ -7,20 +7,31 @@ import './UserInfo.css'
 class UserInfo extends Component {
    state = {
       submittedEmail: false,
+      errorMessage: "Required",
+      allFieldsValid: ""
    };
 
    addNameField = (event) => {
       event.preventDefault();
+      event.stopPropagation();
       this.setState({ submittedEmail: true });
    };
+
+   handleInput = (event) => {
+      event.preventDefault();
+      event.stopPropagation();
+      this.reportValidity();
+   }
 
    render() {
       return (
          <div className="userInfo">
-            {(!this.state.submittedEmail) ? <EmailField /> : <NameFields />}
-            <SubmitButton
-               changeField={this.addNameField}
-            />
+            <form onSubmit="this.handleInput">
+               {(!this.state.submittedEmail) ? <EmailField /> : <NameFields />}
+               <SubmitButton
+                  changeField={this.addNameField}
+               />
+            </form>
          </div>
       );
    }

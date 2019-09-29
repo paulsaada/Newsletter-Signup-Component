@@ -7,14 +7,23 @@ class Form extends Component {
    state = {
       firstName: "",
       lastName: "",
-      email: ""
+      email: "",
+      errorMessage: "Required"
    };
+
+   handleSubmit = (event) => {
+      // validate current field
+      event.preventDefault();
+      event.stopPropagation()
+
+      // bind information to state
+   }
 
    render() {
       return (
          <div>
             <Subtitle />
-            <form>
+            <form onSubmit={this.handleSubmit}>
                <UserInfo />
                <Privacy />
             </form>
