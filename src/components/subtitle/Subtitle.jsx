@@ -6,7 +6,7 @@ class Subtitle extends Component {
    render() {
       return (
          <div>
-            <p className="subtitle">SIGN UP FOR THE TLC NEWSLETTER</p>
+            <p className="subtitle">{this.props.text}</p>
          </div>
       );
    }
