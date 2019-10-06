@@ -8,14 +8,13 @@ class Form extends Component {
       firstName: "",
       lastName: "",
       email: "",
-      errorMessage: "Required"
    };
 
    handleSubmit = (event) => {
-      // validate current field
       event.preventDefault();
-      event.stopPropagation()
-
+      event.stopPropagation();
+      // validate current field
+      return this.form.current.reportValidity();
       // bind information to state
    }
 
@@ -23,7 +22,7 @@ class Form extends Component {
       return (
          <div>
             <Subtitle />
-            <form onSubmit={this.handleSubmit}>
+            <form onSubmit={this.handleSubmit} ref={this.form}>
                <UserInfo />
                <Privacy />
             </form>
