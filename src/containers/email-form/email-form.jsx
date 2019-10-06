@@ -1,10 +1,9 @@
 import React, { Component } from 'react';
 import EmailField from '../../components/email-field/email-field';
-import NameFields from '../name-fields/name-fields';
 import SubmitButton from '../../components/submit-button/SubmitButton';
-import './userInfo.css'
+import './email-form.css'
 
-class UserInfo extends Component {
+class EmailForm extends Component {
    state = {
       submittedEmail: false,
       errorMessage: "Required",
@@ -26,15 +25,11 @@ class UserInfo extends Component {
    render() {
       return (
          <div className="userInfo">
-            <form onSubmit="this.handleInput">
-               {(!this.state.submittedEmail) ? <EmailField /> : <NameFields />}
-               <SubmitButton
-                  changeField={this.addNameField}
-               />
-            </form>
+            <EmailField />
+            <SubmitButton />
          </div>
       );
    }
 }
 
-export default UserInfo;
+export default EmailForm;
