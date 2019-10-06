@@ -7,9 +7,7 @@ class SubmitButton extends Component {
    render() {
       return (
          <div>
-            <button
-               className="submitBtn"
-               onClick={this.props.changeField}>NEXT</button>
+            <button className="submitBtn">{this.props.text}</button>
          </div>
       );
    }

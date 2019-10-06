@@ -12,7 +12,7 @@ class NameForm extends Component {
       return (
          <div className="nameForm">
             <NameFields />
-            <SubmitButton />
+            <SubmitButton text="SUBMIT" />
          </div>
       );
    }

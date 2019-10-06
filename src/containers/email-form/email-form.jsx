@@ -26,7 +26,7 @@ class EmailForm extends Component {
       return (
          <div className="userInfo">
             <EmailField />
-            <SubmitButton />
+            <SubmitButton text="NEXT" />
          </div>
       );
    }
