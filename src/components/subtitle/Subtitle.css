@@ -1,14 +1,16 @@
 @font-face {
-   font-family: 'Azo-Sans';
-   src: url('/fonts/Azo-Sans/Azo-Sans.ttf');
-   src: url('/fonts/Azo-Sans/Azo-Sans.eot') format('embedded-opentype'),
-      url('/fonts/Azo-Sans/Azo-Sans.woff') format('woff'),
-      url('/fonts/Azo-Sans/Azo-Sans.ttf') format('truetype'),
-      url('/fonts/Azo-Sans/Azo-Sans.svg') format('svg');
+   font-family: 'Azo-Sans-Bold';
+   src: url('/fonts/Azo-Sans-Bold/Azo-Sans-Bold.ttf');
+   src: url('/fonts/Azo-Sans-Bold/Azo-Sans-Bold.eot') format('embedded-opentype'),
+      url('/fonts/Azo-Sans-Bold/Azo-Sans-Bold.woff') format('woff'),
+      url('/fonts/Azo-Sans-Bold/Azo-Sans-Bold.ttf') format('truetype'),
+      url('/fonts/Azo-Sans-Bold/AzoSans-Bold.svg') format('svg');
 }
 
 .subtitle {
-   font-family: 'Azo-Sans';
+   font-family: 'Azo-Sans-Bold';
    font-size: 20px;
    color: #94AEBF;
+   margin-bottom: 0;
+   padding-bottom: 6px;
 }
