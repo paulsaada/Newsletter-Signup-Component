@@ -11,6 +11,7 @@ class Form extends Component {
    };
 
    handleSubmit = (event) => {
+      // prevent refresh
       event.preventDefault();
       event.stopPropagation();
       // validate current field
