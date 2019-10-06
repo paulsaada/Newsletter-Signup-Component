@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import Subtitle from '../containers/Subtitle Container/Subtitle';
-import UserInfo from '../containers/Email Container/UserInfo';
-import Privacy from '../containers/Privacy Container/Privacy'
+import Subtitle from '../../components/subtitle/subtitle';
+import UserInfo from '../user-info/user-info';
+import Privacy from '../privacy/privacy'
 
 class Form extends Component {
    state = {

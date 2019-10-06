@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './EmailField.css';
+import './email-field.css';
 
 class EmailField extends Component {
    state = {}
@@ -10,8 +10,7 @@ class EmailField extends Component {
                className="emailField" required={true}
                type="email" id="email" name="email"
                placeholder="enter email address"
-               onChange={this.reportValidity()}>
-            </input>
+            />
          </div>
       );
    }
