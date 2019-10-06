@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import Subtitle from '../../components/subtitle/subtitle';
-import Privacy from '../privacy/privacy'
+import Subtitle from '../components/subtitle/subtitle';
+import Privacy from '../containers/privacy/privacy'
 import EmailForm from '../containers/email-form/email-form';
 
 class UserEmailCollection extends Component {
@@ -11,7 +11,7 @@ class UserEmailCollection extends Component {
    render() {
       return (
          <div>
-            <Subtitle />
+            <Subtitle text="SIGN UP FOR THE TLC NEWSLETTER" />
             <form onSubmit={this.handleSubmit}>
                <EmailForm />
                <Privacy />
