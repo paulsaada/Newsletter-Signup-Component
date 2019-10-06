@@ -1,12 +1,20 @@
-import React from 'react';
+import React, { Component } from 'react';
 import './title.css';
 
-const Title = () => {
-	return (
-		<div>
-			<h1 className="title">join the list</h1>
-		</div>
-	);
-};
+class Title extends Component {
+	state = {}
+
+	static defaultProps = {
+		text: "join the list"
+	}
+
+	render() {
+		return (
+			<div>
+				<h1 className="title">{this.props.text}</h1>
+			</div >
+		);
+	}
+}
 
 export default Title;
