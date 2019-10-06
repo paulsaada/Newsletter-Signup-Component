@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
-import Title from './components/containers/Title Container/Title';
-import Form from './components/Form Container/Form'
+import Title from '../components/title/title';
+import Form from './form/form'
 
 class App extends React.Component {
    state = {}
