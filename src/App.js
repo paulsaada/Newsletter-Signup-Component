@@ -36,7 +36,11 @@ class App extends React.Component {
             return (
                <div className="appComponent">
                   <Title />
-                  <UserEmailCollection />
+                  <UserEmailCollection
+                     nextStep={this.nextStep}
+                     handleChange={this.handleChange}
+                     values={values}
+                  />
                </div>
             )
 
@@ -44,14 +48,20 @@ class App extends React.Component {
             return (
                <div className="appComponent">
                   <Title />
-                  <UserNameCollection />
+                  <UserNameCollection
+                     nextStep={this.nextStep}
+                     handleChange={this.handleChange}
+                     values={values}
+                  />
                </div>
             )
 
          case 3:
             return (
                <div className="appComponent">
-                  <Title />
+                  <Title
+                     text="Congratulations!"
+                  />
                   <CongratsUser />
                </div>
             )
