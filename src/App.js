@@ -6,7 +6,16 @@ import UserEmailCollection from './pages/user-email-collection';
 import CongratsUser from './pages/congratulations';
 
 class App extends React.Component {
-   state = {}
+   state = {
+      step: 1,
+      email: '',
+      firstName: '',
+      lastName: ''
+   }
+
+   // proceed to next step
+
+
    render() {
       return (
          <div className="appComponent">
