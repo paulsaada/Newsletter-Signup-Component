@@ -1,16 +1,18 @@
-import React, { Component } from 'react';
-import './SubmitButton.css';
+import React, { Component } from "react";
+import "./SubmitButton.css";
 
 class SubmitButton extends Component {
-   state = {}
+    state = {};
 
-   render() {
-      return (
-         <div>
-            <button className="submitBtn">{this.props.text}</button>
-         </div>
-      );
-   }
+    render() {
+        const { onClick } = this.props;
+
+        return (
+            <div onClick={onClick}>
+                <button className="submitBtn">{this.props.text}</button>
+            </div>
+        );
+    }
 }
 
 export default SubmitButton;
