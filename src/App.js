@@ -19,16 +19,19 @@ class App extends React.Component {
       this.setState({
          step: step + 1
       });
+      console.log("Next");
    }
 
    // handle change upon submit
-   handleChange = input => e => {
-      this.setState({ [input]: e.target.value });
-   }
+   handleChange = e => {
+      const {
+         target: { name, value },
+      } = e;
+      this.setState({ [name]: value });
+   };
 
    render() {
-      const { step } = this.state;
-      const { email, firstName, lastName } = this.state;
+      const { step, email, firstName, lastName } = this.state;
       const values = { email, firstName, lastName };
 
       switch (step) {

@@ -10,17 +10,17 @@ class EmailForm extends Component {
 
    continue = e => {
       e.preventDefault();
-      this.props.nextStep();
+      const { nextStep } = this.props;
+      nextStep();
    };
 
    render() {
-      const values = this.props;
-      const handleChange = this.props;
+      const { values, handleChange } = this.props;
 
       return (
          <div className="userInfo">
             <EmailField
-               onChange={handleChange('email')}
+               onChange={handleChange}
                defaultValue={values.email}
             />
             <SubmitButton

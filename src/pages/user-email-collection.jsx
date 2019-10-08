@@ -9,10 +9,16 @@ class UserEmailCollection extends Component {
    };
 
    render() {
+      const { values, handleChange, nextStep } = this.props;
+
       return (
          <div>
             <Subtitle text="SIGN UP FOR THE TLC NEWSLETTER" />
-            <EmailForm />
+            <EmailForm
+               values={values}
+               handleChange={handleChange}
+               nextStep={nextStep}
+            />
             <Privacy />
          </div>
       );
