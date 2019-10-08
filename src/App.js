@@ -21,7 +21,7 @@ class App extends React.Component {
       });
    }
 
-   // handle change upon user input
+   // handle change upon submit
    handleChange = input => e => {
       this.setState({ [input]: e.target.value });
    }

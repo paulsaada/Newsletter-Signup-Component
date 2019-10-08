@@ -12,10 +12,8 @@ class UserEmailCollection extends Component {
       return (
          <div>
             <Subtitle text="SIGN UP FOR THE TLC NEWSLETTER" />
-            <form onSubmit={this.handleSubmit}>
-               <EmailForm />
-               <Privacy />
-            </form>
+            <EmailForm />
+            <Privacy />
          </div>
       );
    }

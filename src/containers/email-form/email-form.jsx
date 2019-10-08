@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import React, { Component } from 'react';
 import EmailField from '../../components/email-field/email-field';
 import SubmitButton from '../../components/submit-button/SubmitButton';
@@ -5,28 +6,27 @@ import './email-form.css'
 
 class EmailForm extends Component {
    state = {
-      submittedEmail: false,
-      errorMessage: "Required",
-      allFieldsValid: ""
    };
 
-   addNameField = (event) => {
-      event.preventDefault();
-      event.stopPropagation();
-      this.setState({ submittedEmail: true });
+   continue = e => {
+      e.preventDefault();
+      this.props.nextStep();
    };
-
-   handleInput = (event) => {
-      event.preventDefault();
-      event.stopPropagation();
-      this.reportValidity();
-   }
 
    render() {
+      const values = this.props;
+      const handleChange = this.props;
+
       return (
          <div className="userInfo">
-            <EmailField />
-            <SubmitButton text="NEXT" />
+            <EmailField
+               onChange={handleChange('email')}
+               defaultValue={values.email}
+            />
+            <SubmitButton
+               text="NEXT"
+               onClick={this.continue}
+            />
          </div>
       );
    }
