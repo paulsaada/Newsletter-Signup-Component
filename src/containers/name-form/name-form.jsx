@@ -25,8 +25,8 @@ class NameForm extends Component {
       return (
          <div className="nameForm">
             <NameFields
-               onChange={handleChange}
-               defaultValue={values.firstName && values.lastName}
+               handleChange={handleChange}
+               values={values}
             />
             <SubmitButton
                text="SIGN UP"

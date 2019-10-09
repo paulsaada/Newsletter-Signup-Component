@@ -6,10 +6,17 @@ import './name-fields.css';
 class NameFields extends Component {
    state = {}
    render() {
+      const { values, handleChange } = this.props;
       return (
          <div className="nameField">
-            <FirstName />
-            <LastName />
+            <FirstName
+               handleChange={handleChange}
+               values={values}
+            />
+            <LastName
+               handleChange={handleChange}
+               values={values}
+            />
          </div>
       );
    }
