@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './subtitle.css';
+import './Subtitle.css';
 
 class Subtitle extends Component {
    state = {}

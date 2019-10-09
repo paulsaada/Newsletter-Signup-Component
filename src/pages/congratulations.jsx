@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Subtitle from '../components/subtitle/subtitle';
+import Subtitle from '../components/subtitle/Subtitle';
 import CongratsSubtitle from '../components/congrats-subtitle/congrats-subtitle'
 import './congratulations.css';
 

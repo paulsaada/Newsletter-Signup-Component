@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './title.css';
+import './Title.css';
 
 class Title extends Component {
 	state = {}
