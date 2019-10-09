@@ -8,12 +8,6 @@ class NameForm extends Component {
 
    };
 
-   signUp = e => {
-      e.preventDefault();
-      const { displayData } = this.props;
-      displayData();
-   };
-
    continue = e => {
       e.preventDefault();
       const { nextStep } = this.props;

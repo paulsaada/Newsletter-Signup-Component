@@ -19,12 +19,16 @@ class App extends React.Component {
       this.setState({
          step: step + 1
       });
-      console.log("Next");
    }
 
    // handle change upon submit
    handleChange = input => e => {
       this.setState({ [input]: e.target.value });
+   };
+
+   // console.log user signup data
+   signUp = () => {
+      console.log(App.state);
    };
 
    render() {
@@ -59,11 +63,11 @@ class App extends React.Component {
          case 3:
             return (
                <div className="appComponent">
+                  {console.log(values)}
                   <Title
                      text="Congratulations!"
                   />
-                  <CongratsUser
-                  />
+                  <CongratsUser />
                </div>
             )
          default:
