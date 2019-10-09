@@ -9,7 +9,7 @@
 
 .title {
    color: #B6FDBF;
-   font-family: 'Elaine_D02';
+   font-family: 'Elaine_D02' !important;
    font-size: 60px;
    padding: 20px 30px;
 }
