@@ -6,7 +6,7 @@ class LastName extends Component {
    render() {
       const { values, handleChange } = this.props;
       return (
-         <div>
+         <div className="lastName">
             <input
                className="name" required={true}
                type="text" id="lastName" name="lastName"

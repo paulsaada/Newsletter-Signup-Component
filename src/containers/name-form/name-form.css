@@ -1,3 +1,9 @@
 .nameForm {
    display: flex;
 }
+
+@media (max-width: 820px) {
+   .nameForm {
+      flex-direction: column;
+   }
+ }

@@ -15,3 +15,15 @@
    color: #9B9B9B;
    padding-left: 3px;
 }
+
+@media (max-width: 1000px) {
+   .userAgreement {
+    font-size: 11px;
+   }
+ }
+
+ @media (max-width: 1000px) {
+   .userAgreement {
+    width: 100%;
+   }
+ }

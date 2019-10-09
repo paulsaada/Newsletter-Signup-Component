@@ -13,3 +13,20 @@
    font-size: 60px;
    padding: 20px 30px;
 }
+
+@media (max-width: 1000px) {
+  .title {
+   font-size: 50px;
+  }
+}
+
+@media (max-width: 830px) {
+   .appComponent {
+     flex-direction: column;
+   }
+
+   .title {
+      padding: 0;
+      margin: 1px;
+   }
+ }

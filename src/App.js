@@ -39,7 +39,7 @@ class App extends React.Component {
          case 1:
             return (
                <div className="appComponent">
-                  <Title />
+                  <Title className="title" />
                   <UserEmailCollection
                      nextStep={this.nextStep}
                      handleChange={this.handleChange}

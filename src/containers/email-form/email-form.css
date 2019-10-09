@@ -2,3 +2,9 @@
   display: flex;
 }
 
+@media (max-width: 820px) {
+  .userInfo {
+     flex-direction: column;
+  }
+}
+

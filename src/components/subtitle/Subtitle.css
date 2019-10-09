@@ -14,3 +14,15 @@
    margin-bottom: 0;
    padding-bottom: 6px;
 }
+
+@media (max-width: 1000px) {
+   .subtitle {
+    font-size: 19px;
+   }
+ }
+
+ @media (max-width: 830px) {
+   .subtitle {
+      text-align: center;
+   }
+ }

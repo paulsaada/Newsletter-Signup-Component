@@ -15,3 +15,13 @@
    font-size: 24px;
    opacity: 40%;
 }
+
+@media (max-width: 820px) {
+   .emailField {
+      width: 100%;
+      margin: 1px 3px;
+      font-size: 20px;
+      height: 40px;
+   }
+ }
+ 
