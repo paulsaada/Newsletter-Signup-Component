@@ -7,8 +7,10 @@
       url('/fonts/Azo-Sans/Azo-Sans.svg') format('svg');
 }
 
-.subtitle {
+.text {
+   font-size: 18px;
    font-family: 'Azo-Sans';
-   font-size: 20px;
    color: #94AEBF;
+   margin: 0;
+   padding: 0;
 }

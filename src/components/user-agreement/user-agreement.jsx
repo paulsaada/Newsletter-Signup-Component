@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './UserAgreement.css';
+import './user-agreement.css';
 
 class UserAgreement extends Component {
    state = {}

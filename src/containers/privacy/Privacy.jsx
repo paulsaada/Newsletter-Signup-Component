@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import UserAgreement from "./User Agreement/UserAgreement";
-import Checkbox from "./Checkbox/Checkbox";
-import "./Privacy.css";
+import UserAgreement from "../../components/user-agreement/user-agreement";
+import Checkbox from "../../components/checkbox/checkbox";
+import './privacy.css'
 
 
 class Privacy extends Component {

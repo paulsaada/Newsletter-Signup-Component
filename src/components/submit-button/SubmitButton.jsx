@@ -5,11 +5,11 @@ class SubmitButton extends Component {
    state = {}
 
    render() {
+      const { onClick } = this.props;
+
       return (
-         <div>
-            <button
-               className="submitBtn"
-               onClick={this.props.changeField}>NEXT</button>
+         <div onClick={onClick}>
+            <button className="submitBtn">{this.props.text}</button>
          </div>
       );
    }

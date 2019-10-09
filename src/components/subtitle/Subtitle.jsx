@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
-import './Subtitle.css';
+import './subtitle.css';
 
 class Subtitle extends Component {
    state = {}
    render() {
       return (
          <div>
-            <p className="subtitle">SIGN UP FOR THE TLC NEWSLETTER</p>
+            <p className="subtitle">{this.props.text}</p>
          </div>
       );
    }
