@@ -8,11 +8,30 @@ class NameForm extends Component {
 
    };
 
+   signUp = e => {
+      e.preventDefault();
+      const { displayData } = this.props;
+      displayData();
+   };
+
+   continue = e => {
+      e.preventDefault();
+      const { nextStep } = this.props;
+      nextStep();
+   };
+
    render() {
+      const { values, handleChange } = this.props;
       return (
          <div className="nameForm">
-            <NameFields />
-            <SubmitButton text="SIGN UP" />
+            <NameFields
+               onChange={handleChange}
+               defaultValue={values.firstName && values.lastName}
+            />
+            <SubmitButton
+               text="SIGN UP"
+               onClick={this.continue}
+            />
          </div>
       );
    }

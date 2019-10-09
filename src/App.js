@@ -23,11 +23,8 @@ class App extends React.Component {
    }
 
    // handle change upon submit
-   handleChange = e => {
-      const {
-         target: { name, value },
-      } = e;
-      this.setState({ [name]: value });
+   handleChange = input => e => {
+      this.setState({ [input]: e.target.value });
    };
 
    render() {
@@ -65,7 +62,8 @@ class App extends React.Component {
                   <Title
                      text="Congratulations!"
                   />
-                  <CongratsUser />
+                  <CongratsUser
+                  />
                </div>
             )
          default:

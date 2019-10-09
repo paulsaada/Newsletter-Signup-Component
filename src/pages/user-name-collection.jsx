@@ -9,13 +9,17 @@ class UserNameCollection extends Component {
    };
 
    render() {
+      const { values, handleChange, nextStep } = this.props;
+
       return (
          <div>
             <Subtitle text="ALMOST DONE! PLEASE ENTER YOUR FIRST AND LAST NAME" />
-            <form onSubmit={this.handleSubmit}>
-               <NameForm />
-               <Privacy />
-            </form>
+            <NameForm
+               values={values}
+               handleChange={handleChange}
+               nextStep={nextStep}
+            />
+            <Privacy />
          </div>
       );
    }

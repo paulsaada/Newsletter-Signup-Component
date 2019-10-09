@@ -20,8 +20,8 @@ class EmailForm extends Component {
       return (
          <div className="userInfo">
             <EmailField
-               onChange={handleChange}
-               defaultValue={values.email}
+               handleChange={handleChange}
+               values={values}
             />
             <SubmitButton
                text="NEXT"
