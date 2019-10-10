@@ -8,12 +8,6 @@ class EmailForm extends Component {
    state = {
    };
 
-   continue = e => {
-      e.preventDefault();
-      const { nextStep } = this.props;
-      nextStep();
-   };
-
    render() {
       const { values, handleChange } = this.props;
 
@@ -25,7 +19,6 @@ class EmailForm extends Component {
             />
             <SubmitButton
                text="NEXT"
-               onClick={this.continue}
             />
          </div>
       );

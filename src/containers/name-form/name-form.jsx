@@ -8,12 +8,6 @@ class NameForm extends Component {
 
    };
 
-   continue = e => {
-      e.preventDefault();
-      const { nextStep } = this.props;
-      nextStep();
-   };
-
    render() {
       const { values, handleChange } = this.props;
       return (
@@ -24,7 +18,6 @@ class NameForm extends Component {
             />
             <SubmitButton
                text="SIGN UP"
-               onClick={this.continue}
             />
          </div>
       );

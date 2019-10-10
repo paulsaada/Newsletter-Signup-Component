@@ -8,17 +8,25 @@ class UserEmailCollection extends Component {
 
    };
 
+   continue = e => {
+      e.preventDefault();
+      const { nextStep } = this.props;
+      nextStep();
+   };
+
    render() {
       const { values, handleChange, nextStep } = this.props;
 
       return (
          <div>
             <Subtitle text="SIGN UP FOR THE TLC NEWSLETTER" />
-            <EmailForm
-               values={values}
-               handleChange={handleChange}
-               nextStep={nextStep}
-            />
+            <form onSubmit={this.continue}>
+               <EmailForm
+                  values={values}
+                  handleChange={handleChange}
+                  nextStep={nextStep}
+               />
+            </form>
             <Privacy />
          </div>
       );
