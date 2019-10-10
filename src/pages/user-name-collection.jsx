@@ -8,18 +8,26 @@ class UserNameCollection extends Component {
 
    };
 
+   continue = e => {
+      e.preventDefault();
+      const { nextStep } = this.props;
+      nextStep();
+   };
+
    render() {
       const { values, handleChange, nextStep } = this.props;
 
       return (
          <div>
             <Subtitle text="ALMOST DONE! PLEASE ENTER YOUR FIRST AND LAST NAME" />
-            <NameForm
-               values={values}
-               handleChange={handleChange}
-               nextStep={nextStep}
-            />
-            <Privacy />
+            <form onSubmit={this.continue}>
+               <NameForm
+                  values={values}
+                  handleChange={handleChange}
+                  nextStep={nextStep}
+               />
+               <Privacy />
+            </form>
          </div>
       );
    }
