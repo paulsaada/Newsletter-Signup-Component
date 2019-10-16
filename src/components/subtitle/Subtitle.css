@@ -1,12 +1,3 @@
-@font-face {
-   font-family: 'Azo-Sans-Bold';
-   src: url('/fonts/Azo-Sans-Bold/Azo-Sans-Bold.ttf');
-   src: url('/fonts/Azo-Sans-Bold/Azo-Sans-Bold.eot') format('embedded-opentype'),
-      url('/fonts/Azo-Sans-Bold/Azo-Sans-Bold.woff') format('woff'),
-      url('/fonts/Azo-Sans-Bold/Azo-Sans-Bold.ttf') format('truetype'),
-      url('/fonts/Azo-Sans-Bold/AzoSans-Bold.svg') format('svg');
-}
-
 .subtitle {
    font-family: 'Azo-Sans-Bold';
    font-size: 20px;
