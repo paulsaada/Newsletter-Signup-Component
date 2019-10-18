@@ -12,7 +12,7 @@ class Title extends Component {
 		return (
 			<div>
 				<h1 className="title">{this.props.text}</h1>
-			</div >
+			</div>
 		);
 	}
 }
