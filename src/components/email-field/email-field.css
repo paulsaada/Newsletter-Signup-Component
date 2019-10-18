@@ -11,10 +11,6 @@
    box-sizing: border-box;
 }
 
-.emailField::placeholder {
-   font-size: 24px;
-   opacity: 40%;
-}
 
 @media (max-width: 820px) {
    .emailField {

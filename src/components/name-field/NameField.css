@@ -10,8 +10,3 @@
    border: none;
    box-sizing: border-box;
 }
-
-.name::placeholder {
-   font-size: 24px;
-   opacity: 40%;
-}
