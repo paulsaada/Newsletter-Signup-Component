@@ -7,7 +7,7 @@ import '../index.css';
 
 
 export default {
-   title: 'Form States',
+   title: 'Signup Form States',
 };
 
 export const userEmailCollectionState = () => <UserEmailCollection />
