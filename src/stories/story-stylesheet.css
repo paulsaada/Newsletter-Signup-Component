@@ -1,0 +1,16 @@
+.story-description {
+   background: none repeat scroll 0% 0%;
+   border-bottom: 0.5px solid#94AEBF;
+   height: 48px; width: 100%; 
+   position: fixed; 
+   top: 0px; 
+   left: 0px;
+   padding-left: 15px; 
+   color: #94AEBF;
+   font-size: 15px;
+   font-family: Roboto;
+}
+
+.content {
+   margin-top: 56px;
+}
