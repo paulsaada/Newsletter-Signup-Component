@@ -11,7 +11,7 @@ export default {
 
 export const userEmailCollectionState = () => (
    <div className="story-description">
-      <p>UserEmailCollection</p>
+      <p>User's email address collection state</p>
       <Subtitle text="SIGN UP FOR THE TLC NEWSLETTER" />
       <form>
          <div className="story-form-wrapper">
@@ -29,7 +29,7 @@ export const userEmailCollectionState = () => (
 
 export const userNameCollectionState = () => (
    <div className="story-description">
-      <p>UserNameCollection</p>
+      <p>User's first/last name collection state</p>
       <Subtitle text="ALMOST DONE! PLEASE ENTER YOUR FIRST AND LAST NAME" />
       <form>
          <div className="story-form-wrapper">
@@ -53,7 +53,7 @@ export const userNameCollectionState = () => (
 export const userCongratulationsState = () => (
    <div>
       <div className="story-description">
-         <p>Title component with default props that remain until the final stage of user signup.</p>
+         <p>Users are greeted with congratulations state upon completion of signup.</p>
       </div>
       <div className="content">
          <CongratsUser />
