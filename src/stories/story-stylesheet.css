@@ -12,5 +12,9 @@
 }
 
 .content {
-   margin-top: 56px;
+   margin-top: 70px;
+}
+
+.story-form-wrapper {
+   display: flex;
 }
