@@ -8,7 +8,7 @@ This project was originally part of a coding assessment I took part in that I th
 
 ## Case Study
 
-Upon the completion of my assessment, I was able to demonstrate my ability in and understanding of:
+Upon the completion of this assessment, I was able to demonstrate my ability in and understanding of:
 * Creating functional, dynamic, and reusable ReactJS components
 * Atomic design in ReactJS applications
 * BEM principles
