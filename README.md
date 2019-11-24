@@ -4,7 +4,7 @@
 
 [Live Demo](https://nifty-jang-8d4b7c.netlify.com/)
 
-This project was originally part of a coding assessment I took part in that I thought would make a great case study. I was given a Sketch file of a multi-step form and told to reproduce a 1:1 pixel-perfect web app from it that was responsive, fully-functional, and written in ReactJS. The end goal of the project was to have a form that took user inputs and put them in an object and to `console.log` that object.
+This project was originally part of a coding assessment that I once took part in that I later thought would make a great case study. I was given a Sketch file of a multi-step form and told to reproduce a 1:1 pixel-perfect web app from it that was responsive, fully-functional, and written in ReactJS. The end goal of the project was to have a form that took user inputs and put them in an object and to `console.log` that object when the form is submitted.
 
 ## Case Study
 
@@ -15,6 +15,8 @@ Upon the completion of this assessment, I was able to demonstrate my ability in 
 * Field Validation
 * Continuous Deployment
 * Git Version Control
+* Responsiveness
+* Code Documentation
 * Live UI Documentation
 
 ## Project Requirements
@@ -41,7 +43,7 @@ Upon the completion of this assessment, I was able to demonstrate my ability in 
 	3. Last Name field: Required 
 8. Component will not change states while invalid fields exist 
 9. Form will not actually POST anywhere. Just console log the object that holds {email, first, last } values and toggle to ‘congratulations’ state.
-10. Create an interactive documentation guide with Storybook for:
+10. Use Storybook to create an interactive documentation guide for:
 	1. Each form state
 	2. Each reusable component
 	3. Each reusable container
@@ -60,4 +62,4 @@ You can explore the interactive documentation guide and test each reusable compo
 
 ## Authors
 
-* **Paul Saada** [Portfolio](https://paulsaada.com)
+* **Paul Saada** ([Portfolio](https://paulsaada.com))
