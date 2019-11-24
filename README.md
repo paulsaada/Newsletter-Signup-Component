@@ -56,10 +56,10 @@ Upon the completion of this assessment, I was able to demonstrate my ability in 
 
 ![screenshot-of-documentation-guide](https://user-images.githubusercontent.com/26423160/69489388-7e235b00-0e45-11ea-9dab-86c9bf0b6641.png)
 
+Explore the interactive documentation guide and test each reusable component in isolation.
+
 | [Interactive Documentation Guide](https://jovial-shockley-68dfcb.netlify.com) |
 |---|
-
-Explore the interactive documentation guide and test each reusable component in isolation.
 
 ## Built With 🔨
 
