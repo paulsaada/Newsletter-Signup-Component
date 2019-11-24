@@ -8,7 +8,7 @@
 | [Live Documentation Guide](https://jovial-shockley-68dfcb.netlify.com) |
 |---|
 
-This project was originally part of a coding assessment that I once took part in that I later thought would make a great case study. I was given a Sketch file of a multi-step form and told to reproduce a 1:1 pixel-perfect web app from it that was responsive, fully-functional, and written in ReactJS. The end goal of the project was to have a form that took user inputs and put them in an object and to `console.log` that object when the form is submitted.
+This project was originally part of a coding assessment that I once took part in that I later thought would make a great case study. I was given a Sketch file of a multi-step form and told to reproduce a 1:1 pixel-perfect web app from it that was responsive, fully-functional, and written in ReactJS. The end goal of the project was to have a form that collected user input into an object and to `console.log` that object when the form is submitted.
 
 ## Case Study  🔎
 
