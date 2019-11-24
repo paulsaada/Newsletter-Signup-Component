@@ -2,9 +2,9 @@
 
 ![demo-gif](https://user-images.githubusercontent.com/26423160/69489089-7661b780-0e41-11ea-9df9-3504f5d124ac.gif)
 
-This project was originally part of a coding assessment I took part in that I thought would make a great case study. I was given a Sketch file of a multi-step form and told to reproduce a 1:1 pixel-perfect web app from it that was responsive, fully-functional, and written in ReactJS. The end goal of the project was to have a form that took user inputs and put them in an object and to `console.log` that object.
-
 [Live Demo](https://nifty-jang-8d4b7c.netlify.com/)
+
+This project was originally part of a coding assessment I took part in that I thought would make a great case study. I was given a Sketch file of a multi-step form and told to reproduce a 1:1 pixel-perfect web app from it that was responsive, fully-functional, and written in ReactJS. The end goal of the project was to have a form that took user inputs and put them in an object and to `console.log` that object.
 
 ## Project Requirements
 #### The full breakdown for those who'd like to know
@@ -34,6 +34,15 @@ This project was originally part of a coding assessment I took part in that I th
 	1. Each form state
 	2. Each reusable component
 	3. Each reusable container
+
+## Case Study
+
+Upon the completion of my assessment, I was able to demonstrate my ability in and understanding of:
+* Creating functional, dynamic, and reusable ReactJS components
+* Atomic design in ReactJS applications
+* BEM principles
+* Field Validation
+
 
 ## Interactive Documentation Guide
 
