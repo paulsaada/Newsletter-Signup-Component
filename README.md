@@ -2,7 +2,11 @@
 
 ![demo-gif](https://user-images.githubusercontent.com/26423160/69489089-7661b780-0e41-11ea-9df9-3504f5d124ac.gif)
 
-[Live Demo](https://nifty-jang-8d4b7c.netlify.com/)
+| [Live Demo](https://nifty-jang-8d4b7c.netlify.com/) |
+|---|
+
+| [Live Documentation Guide](https://jovial-shockley-68dfcb.netlify.com) |
+|---|
 
 This project was originally part of a coding assessment that I once took part in that I later thought would make a great case study. I was given a Sketch file of a multi-step form and told to reproduce a 1:1 pixel-perfect web app from it that was responsive, fully-functional, and written in ReactJS. The end goal of the project was to have a form that took user inputs and put them in an object and to `console.log` that object when the form is submitted.
 
@@ -52,7 +56,10 @@ Upon the completion of this assessment, I was able to demonstrate my ability in 
 
 ![screenshot-of-documentation-guide](https://user-images.githubusercontent.com/26423160/69489388-7e235b00-0e45-11ea-9dab-86c9bf0b6641.png)
 
-You can explore the interactive documentation guide and test each reusable component in isolation [here.](https://jovial-shockley-68dfcb.netlify.com)
+Explore the interactive documentation guide and test each reusable component in isolation.
+
+| [Interactive Documentation Guide](https://jovial-shockley-68dfcb.netlify.com) |
+|---|
 
 ## Built With 🔨
 
