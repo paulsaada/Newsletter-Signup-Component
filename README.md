@@ -11,27 +11,26 @@ This project was originally part of a coding assessment I took part in that I th
 
 1. Must use either React JS or React Native to complete the project 
 2. Must build and run in either a web browser or device simulator 
-3. Must include a detailed readme file for instructions for running the application 
-4. May use third party libraries to complete this task 
-5. Organize your component into atoms, molecules and one singular organism in a way that shows you have a good understanding of atomic design principles and reuse
-6. The component will have 4 responsive breakpoints as shown in Sketch file:
+3. May use third party libraries to complete this task 
+4. Organize your component into atoms, molecules and one singular organism in a way that shows you have a good understanding of atomic design principles and reuse
+5. The component will have 4 responsive breakpoints as shown in Sketch file:
 	1. Mobile 
 	2. Tablet Portrait 
 	3. Tablet Landscape
 	4. Desktop
-7. The component will have 5 states: 
+6. The component will have 5 states: 
 	1. Email address collection 
 	2. Email address collection with error message 
 	3. Full name collection 
 	4. Full name collection with error message
 	5. Congratulations! message
-8. Form validation will be as follows: 
+7. Form validation will be as follows: 
 	1. Email Address field: Required and must be valid email
 	2. First Name field: Required 
 	3. Last Name field: Required 
-9. Component will not change states while invalid fields exist 
-10. Form will not actually POST anywhere. Just console log the object that holds {email, first, last } values and toggle to ‘congratulations’ state.
-11. Create an interactive documentation guide with Storybook for:
+8. Component will not change states while invalid fields exist 
+9. Form will not actually POST anywhere. Just console log the object that holds {email, first, last } values and toggle to ‘congratulations’ state.
+10. Create an interactive documentation guide with Storybook for:
 	1. Each form state
 	2. Each reusable component
 	3. Each reusable container
