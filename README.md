@@ -10,14 +10,14 @@ This project was originally part of a coding assessment that I once took part in
 
 Upon the completion of this assessment, I was able to demonstrate my ability in and understanding of:
 * Creating functional, dynamic, and reusable ReactJS components
+* Field Validation
 * Atomic design in ReactJS applications
 * BEM principles
-* Field Validation
-* Continuous Deployment
-* Git Version Control
 * Responsiveness
 * Code Documentation
 * Live UI Documentation
+* Continuous Deployment
+* Git Version Control
 
 ## Project Requirements  ⚛️
 #### The full breakdown for those who'd like to know
