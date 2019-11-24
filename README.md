@@ -1,68 +1,38 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Newsletter Signup Component
 
-## Available Scripts
+[ezgif com-video-to-gif](https://user-images.githubusercontent.com/26423160/69489089-7661b780-0e41-11ea-9df9-3504f5d124ac.gif)
+This project was originally part of a coding assessment I took that I thought would make a great case study. I was given a Sketch file of a multi-step form and told to reproduce a 1:1 pixel-perfect web app from it that was responsive, fully-functional, and written in ReactJS. The end goal of the project was to have a form that took user inputs and put them in an object and to `console.log` that object.
 
-In the project directory, you can run:
+## Project Requirements
+### The full breakdown for those who'd like to know
 
-### `npm start`
+1. Must use either React JS or React Native to complete the project 
+2. Must build and run in either a web browser or device simulator 
+3. Must include a detailed readme file for instructions for running the application 
+4. May use third party libraries to complete this task 
+5. Organize your component into atoms, molecules and one singular organism in a way that shows you have a good understanding of atomic design principles and reuse
+6. The component will have 4 responsive breakpoints as shown in Sketch file:
+	1. Mobile 
+	2. Tablet Portrait 
+	3. Tablet Landscape
+	4. Desktop
+7. The component will have 5 states: 
+	1. Email address collection 
+	2. Email address collection with error message 
+	3. Full name collection 
+	4. Full name collection with error message
+	5. Congratulations! message
+8. Form validation will be as follows: 
+	1. Email Address field: Required and must be valid email
+	2. First Name field: Required 
+	3. Last Name field: Required 
+9. Component will not change states while invalid fields exist 
+10. Form will not actually POST anywhere. Just console log the object that holds {email, first, last } values and toggle to ‘congratulations’ state.
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Built With
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+* [ReactJS](https://reactjs.org/) - The web framework used
 
-### `npm test`
+## Authors
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+* **Paul Saada** [Portfolio](https://paulsaada.com)
