@@ -5,7 +5,7 @@
 This project was originally part of a coding assessment I took part in that I thought would make a great case study. I was given a Sketch file of a multi-step form and told to reproduce a 1:1 pixel-perfect web app from it that was responsive, fully-functional, and written in ReactJS. The end goal of the project was to have a form that took user inputs and put them in an object and to `console.log` that object.
 
 ## Project Requirements
-### The full breakdown for those who'd like to know
+#### The full breakdown for those who'd like to know
 
 1. Must use either React JS or React Native to complete the project 
 2. Must build and run in either a web browser or device simulator 
