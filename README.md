@@ -67,6 +67,6 @@ Explore the interactive documentation guide and test each reusable component in 
 * [Storybook](https://storybook.js.org/) - UI component explorer used to create interactive documentation guide
 
 
-## Authors  💻
+## Author  💻
 
 * **Paul Saada** ([Portfolio](https://paulsaada.com))
